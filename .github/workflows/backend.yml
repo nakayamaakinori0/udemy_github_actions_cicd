@@ -8,6 +8,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    staps:
+    steps:
       - run: echo "Hello, world!"
 
