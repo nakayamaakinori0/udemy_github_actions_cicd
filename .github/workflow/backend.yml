@@ -1,0 +1,13 @@
+name: backend
+
+on:
+  push:
+    branches:
+      - main
+
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+      staps:
+        - run: echo "Hello, world!"
+
