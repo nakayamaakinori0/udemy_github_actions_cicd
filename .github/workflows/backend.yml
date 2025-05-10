@@ -5,9 +5,9 @@ on:
     branches:
       - main
 
-  jobs:
-    build:
-      runs-on: ubuntu-latest
-      staps:
-        - run: echo "Hello, world!"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    staps:
+      - run: echo "Hello, world!"
 
