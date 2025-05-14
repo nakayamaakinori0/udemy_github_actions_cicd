@@ -18,7 +18,7 @@ app.use(cors({ origin: CORS_ORIGIN }))
 
 app.get('/api/health', async (req, res) => {
   res.json({
-    status: 'OK'
+    status: 'OK',
   })
 })
 
@@ -28,7 +28,7 @@ app.get('/api/sum', async (req, res) => {
 
   if (isNaN(input1) || isNaN(input2)) {
     res.status(400).json({
-      type: 'InvalidInput'
+      type: 'InvalidInput',
     })
     return
   }
@@ -36,7 +36,7 @@ app.get('/api/sum', async (req, res) => {
   const result = sum(input1, input2)
 
   res.json({
-    sum: result
+    sum: result,
   })
 })
 
