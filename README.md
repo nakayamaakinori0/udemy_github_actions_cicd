@@ -2,6 +2,8 @@
 
 [![backend](https://github.com/nakayamaakinori0/udemy_github_actions_cicd/actions/workflows/backend.yml/badge.svg)](https://github.com/nakayamaakinori0/udemy_github_actions_cicd/actions/workflows/backend.yml)
 
+udemy-github-actions-keyはaws ec2 にssh接続するための秘密鍵
+
 # サンプルアプリケーション
 
 静的なフロントエンドと Web API から成る、足し算アプリケーションです。
