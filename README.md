@@ -2,7 +2,11 @@
 
 [![backend](https://github.com/nakayamaakinori0/udemy_github_actions_cicd/actions/workflows/backend.yml/badge.svg)](https://github.com/nakayamaakinori0/udemy_github_actions_cicd/actions/workflows/backend.yml)
 
-udemy-github-actions-keyはaws ec2 にssh接続するための秘密鍵
+udemy-github-actions-key.pemはaws ec2 にssh接続するための秘密鍵
+
+backend.serviceはec2のsystemdの設定
+
+
 
 # サンプルアプリケーション
 
